@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SDRimLight
-  m_Shader: {fileID: 4800000, guid: 640ffa3ec9707274ebfb62fec537f506, type: 3}
+  m_Name: SDBanded
+  m_Shader: {fileID: 4800000, guid: f4887592164f8c741bdafcaaa2305413, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -67,13 +67,13 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 0.78
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Steps: 25.3
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _Albedo: {r: 1, g: 0.89544284, b: 0.504717, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0, g: 0.76483583, b: 1, a: 0.49019608}
